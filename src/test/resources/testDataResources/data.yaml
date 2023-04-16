@@ -1,0 +1,4 @@
+baseurl: https://bookstore.toolsqa.com
+createTokenendpoint: /Account/v1/GenerateToken
+getbooksendpoint: /BookStore/v1/Books
+

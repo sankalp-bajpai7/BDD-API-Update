@@ -1,0 +1,10 @@
+{
+  "validrequest": {
+    "userName": "example glossary",
+    "password": "test123"
+  },
+  "invalidrequest": {
+    "password": "test123"
+  }
+
+}

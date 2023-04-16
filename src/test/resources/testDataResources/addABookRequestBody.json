@@ -1,0 +1,11 @@
+{
+  "addabookrequest":{
+
+    "userId": "USER_ID",
+    "collectionOfIsbns": [
+      {
+        "isbn": "bookId"
+      }
+    ]
+  }
+}
