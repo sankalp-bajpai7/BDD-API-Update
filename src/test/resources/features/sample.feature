@@ -1,6 +1,6 @@
 Feature: Validate API test
 
-  @ValidCredentials @Login
+  @ValidCredentials @Login @JIRA-0701
   Scenario Outline: Login with valid credentials
     Given the request api is formed with "<requestbody>"
     When User sends the request api with valid requestbody "<username>" "<password>"
@@ -27,6 +27,8 @@ Feature: Validate API test
     Given I establish a connection
     When I access the record needed
     Then I am displayed the record
+
+
 
 
 
